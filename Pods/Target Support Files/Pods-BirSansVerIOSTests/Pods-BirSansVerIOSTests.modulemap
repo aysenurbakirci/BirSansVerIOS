@@ -1,0 +1,6 @@
+framework module Pods_BirSansVerIOSTests {
+  umbrella header "Pods-BirSansVerIOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

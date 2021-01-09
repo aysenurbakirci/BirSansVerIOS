@@ -1,0 +1,6 @@
+framework module Pods_BirSansVerIOS {
+  umbrella header "Pods-BirSansVerIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
