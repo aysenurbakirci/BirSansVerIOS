@@ -18,6 +18,9 @@
 		24081B3025A888F5004633E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24081B2F25A888F5004633E1 /* GoogleService-Info.plist */; };
 		24081B3125A888F5004633E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24081B2F25A888F5004633E1 /* GoogleService-Info.plist */; };
 		24081B3225A888F5004633E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24081B2F25A888F5004633E1 /* GoogleService-Info.plist */; };
+		248B73CE25A9F18300D80E3F /* classIlanTipi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B73CD25A9F18300D80E3F /* classIlanTipi.swift */; };
+		248B73D425A9F6B300D80E3F /* Ilan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B73D325A9F6B300D80E3F /* Ilan.swift */; };
+		24A4CCBD25AB529000447305 /* classIlanAyrinti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A4CCBC25AB529000447305 /* classIlanAyrinti.swift */; };
 		24C1A90B25A88FA6001C212F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1A90A25A88FA6001C212F /* SignInViewController.swift */; };
 		24C1A91325A88FB0001C212F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1A91225A88FB0001C212F /* SignUpViewController.swift */; };
 		24C1A91825A89984001C212F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1A91725A89984001C212F /* MainViewController.swift */; };
@@ -66,6 +69,9 @@
 		24081B1E25A888CF004633E1 /* BirSansVerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirSansVerIOSUITests.swift; sourceTree = "<group>"; };
 		24081B2025A888CF004633E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24081B2F25A888F5004633E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		248B73CD25A9F18300D80E3F /* classIlanTipi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classIlanTipi.swift; sourceTree = "<group>"; };
+		248B73D325A9F6B300D80E3F /* Ilan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ilan.swift; sourceTree = "<group>"; };
+		24A4CCBC25AB529000447305 /* classIlanAyrinti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classIlanAyrinti.swift; sourceTree = "<group>"; };
 		24C1A90A25A88FA6001C212F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		24C1A91225A88FB0001C212F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		24C1A91725A89984001C212F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -161,9 +167,10 @@
 		24081AFB25A888CC004633E1 /* BirSansVerIOS */ = {
 			isa = PBXGroup;
 			children = (
+				248B73D225A9F64300D80E3F /* Models */,
 				24C1A92B25A8C839001C212F /* Cell Design */,
-				24C1A90925A88F91001C212F /* Contoller's */,
-				24081B5225A889EB004633E1 /* Delegate's */,
+				24C1A90925A88F91001C212F /* Contollers */,
+				24081B5225A889EB004633E1 /* Delegates */,
 				24081B0225A888CC004633E1 /* Main.storyboard */,
 				24081B0025A888CC004633E1 /* ViewController.swift */,
 				24081B0525A888CF004633E1 /* Assets.xcassets */,
@@ -192,27 +199,37 @@
 			path = BirSansVerIOSUITests;
 			sourceTree = "<group>";
 		};
-		24081B5225A889EB004633E1 /* Delegate's */ = {
+		24081B5225A889EB004633E1 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
 				24081AFC25A888CC004633E1 /* AppDelegate.swift */,
 				24081AFE25A888CC004633E1 /* SceneDelegate.swift */,
 			);
-			path = "Delegate's";
+			path = Delegates;
 			sourceTree = "<group>";
 		};
-		24C1A90925A88F91001C212F /* Contoller's */ = {
+		248B73D225A9F64300D80E3F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				24C1A90A25A88FA6001C212F /* SignInViewController.swift */,
+				248B73CD25A9F18300D80E3F /* classIlanTipi.swift */,
+				248B73D325A9F6B300D80E3F /* Ilan.swift */,
+				24A4CCBC25AB529000447305 /* classIlanAyrinti.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24C1A90925A88F91001C212F /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
 				24C1A91225A88FB0001C212F /* SignUpViewController.swift */,
+				24C1A90A25A88FA6001C212F /* SignInViewController.swift */,
 				24C1A91725A89984001C212F /* MainViewController.swift */,
 				24C1A91C25A8BE00001C212F /* IlanlarViewController.swift */,
-				24C1A92125A8BE15001C212F /* IlanPaylasViewController.swift */,
-				24C1A92625A8BE22001C212F /* IlanlarimViewController.swift */,
 				24EC712925A9B2E7002EDCCF /* IlanBilgileriViewController.swift */,
+				24C1A92625A8BE22001C212F /* IlanlarimViewController.swift */,
+				24C1A92125A8BE15001C212F /* IlanPaylasViewController.swift */,
 			);
-			path = "Contoller's";
+			path = Contollers;
 			sourceTree = "<group>";
 		};
 		24C1A92B25A8C839001C212F /* Cell Design */ = {
@@ -468,11 +485,14 @@
 			files = (
 				24C1A90B25A88FA6001C212F /* SignInViewController.swift in Sources */,
 				24EC712A25A9B2E7002EDCCF /* IlanBilgileriViewController.swift in Sources */,
+				248B73CE25A9F18300D80E3F /* classIlanTipi.swift in Sources */,
 				24081B0125A888CC004633E1 /* ViewController.swift in Sources */,
 				24081AFD25A888CC004633E1 /* AppDelegate.swift in Sources */,
 				24C1A93925A8C880001C212F /* DesignTableViewCell.swift in Sources */,
 				24C1A91825A89984001C212F /* MainViewController.swift in Sources */,
+				24A4CCBD25AB529000447305 /* classIlanAyrinti.swift in Sources */,
 				24C1A91D25A8BE00001C212F /* IlanlarViewController.swift in Sources */,
+				248B73D425A9F6B300D80E3F /* Ilan.swift in Sources */,
 				24081AFF25A888CC004633E1 /* SceneDelegate.swift in Sources */,
 				24C1A92725A8BE22001C212F /* IlanlarimViewController.swift in Sources */,
 				24C1A92225A8BE15001C212F /* IlanPaylasViewController.swift in Sources */,

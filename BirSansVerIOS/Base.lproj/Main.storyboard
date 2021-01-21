@@ -294,7 +294,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEN DE ŞANS VER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fee-ah-iKm">
-                                <rect key="frame" x="20" y="84" width="374" height="48"/>
+                                <rect key="frame" x="20" y="64" width="374" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
                                 <color key="textColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -305,7 +305,7 @@
                                     <constraint firstAttribute="width" constant="65" id="PCi-pO-bX0"/>
                                     <constraint firstAttribute="height" constant="65" id="WaB-ty-BtX"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="belgeIcon"/>
+                                <state key="normal" title="Button" image="ilanlarim"/>
                                 <connections>
                                     <action selector="clickIlanlarim:" destination="tvK-ke-faZ" eventType="touchUpInside" id="ojE-jx-6F3"/>
                                     <segue destination="RBP-zU-mKz" kind="show" identifier="AnaEkrantoIlanlarım" id="NAC-o5-lk6"/>
@@ -317,7 +317,7 @@
                                     <constraint firstAttribute="height" constant="65" id="7Ru-CA-ywk"/>
                                     <constraint firstAttribute="width" constant="65" id="Zko-Rj-lB7"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="paylas"/>
+                                <state key="normal" title="Button" image="ilanpaylas"/>
                                 <connections>
                                     <action selector="clickIlanPaylsa:" destination="tvK-ke-faZ" eventType="touchUpInside" id="iwG-NT-M7h"/>
                                     <segue destination="DZN-gQ-Yr0" kind="show" identifier="AnaEkrantoIlanPaylas" id="Tct-Y8-mEa"/>
@@ -329,14 +329,14 @@
                                     <constraint firstAttribute="height" constant="65" id="TQG-HT-t5T"/>
                                     <constraint firstAttribute="width" constant="65.5" id="qAe-na-CP6"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="cikisIcon"/>
+                                <state key="normal" title="Button" image="cikis"/>
                                 <connections>
                                     <action selector="clickBtnCikis:" destination="tvK-ke-faZ" eventType="touchUpInside" id="zF2-t7-STf"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" identifier="AnaEkrantoUygGirisEkrani" modalPresentationStyle="fullScreen" id="7Kd-BC-ylU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4s-wM-4m0">
-                                <rect key="frame" x="20" y="243" width="374" height="42"/>
+                                <rect key="frame" x="20" y="235" width="374" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Kan İlanlarını Görüntüle">
                                     <color key="titleColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -346,7 +346,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXZ-NI-Bmd">
-                                <rect key="frame" x="20" y="385" width="374" height="42"/>
+                                <rect key="frame" x="20" y="377" width="374" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="İlaç İlanlarını Görüntüle">
                                     <color key="titleColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -356,7 +356,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZo-zN-IN0">
-                                <rect key="frame" x="20" y="527" width="374" height="42"/>
+                                <rect key="frame" x="20" y="519" width="374" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="İlik İlanlarını Görüntüle">
                                     <color key="titleColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -366,7 +366,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Unc-bv-hC9">
-                                <rect key="frame" x="20" y="669" width="374" height="42"/>
+                                <rect key="frame" x="20" y="661" width="374" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Malzeme İlanlarını Görüntüle">
                                     <color key="titleColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -376,7 +376,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAC-ct-03B">
-                                <rect key="frame" x="181" y="185" width="50" height="50"/>
+                                <rect key="frame" x="181" y="177" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="a6p-vI-abq"/>
                                 </constraints>
@@ -386,7 +386,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0T-c9-hce">
-                                <rect key="frame" x="181" y="327" width="50" height="50"/>
+                                <rect key="frame" x="181" y="319" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="nYH-QA-ehw"/>
                                 </constraints>
@@ -396,7 +396,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coN-7k-7r3">
-                                <rect key="frame" x="181" y="469" width="50" height="50"/>
+                                <rect key="frame" x="181" y="461" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="XJV-ZH-tSf"/>
                                 </constraints>
@@ -406,7 +406,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJW-Dl-k79">
-                                <rect key="frame" x="181" y="611" width="50" height="50"/>
+                                <rect key="frame" x="181" y="603" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="UwX-q7-4Kw"/>
                                 </constraints>
@@ -421,7 +421,7 @@
                         <constraints>
                             <constraint firstItem="fee-ah-iKm" firstAttribute="trailing" secondItem="RfD-Dc-rsI" secondAttribute="trailingMargin" id="4qf-AX-3q8"/>
                             <constraint firstItem="RXZ-NI-Bmd" firstAttribute="leading" secondItem="VZo-zN-IN0" secondAttribute="leading" id="4rq-EF-7qK"/>
-                            <constraint firstItem="fee-ah-iKm" firstAttribute="top" secondItem="tgO-MX-TMD" secondAttribute="top" constant="40" id="7qU-qu-a2b"/>
+                            <constraint firstItem="fee-ah-iKm" firstAttribute="top" secondItem="tgO-MX-TMD" secondAttribute="top" constant="20" id="7qU-qu-a2b"/>
                             <constraint firstItem="coN-7k-7r3" firstAttribute="trailing" secondItem="XJW-Dl-k79" secondAttribute="trailing" id="8LP-XL-9As"/>
                             <constraint firstItem="Unc-bv-hC9" firstAttribute="top" secondItem="XJW-Dl-k79" secondAttribute="bottom" constant="8" id="9fJ-Qi-Cjf"/>
                             <constraint firstItem="fee-ah-iKm" firstAttribute="leading" secondItem="RfD-Dc-rsI" secondAttribute="leadingMargin" id="Aa5-Km-nGe"/>
@@ -449,7 +449,7 @@
                             <constraint firstItem="VZo-zN-IN0" firstAttribute="leading" secondItem="Unc-bv-hC9" secondAttribute="leading" id="dNl-Af-xx6"/>
                             <constraint firstItem="XJW-Dl-k79" firstAttribute="top" secondItem="VZo-zN-IN0" secondAttribute="bottom" constant="42" id="fF0-eT-KAm"/>
                             <constraint firstItem="O3F-gm-gah" firstAttribute="leading" secondItem="tgO-MX-TMD" secondAttribute="leading" constant="62" id="gya-lz-NSt"/>
-                            <constraint firstItem="vAC-ct-03B" firstAttribute="top" secondItem="fee-ah-iKm" secondAttribute="bottom" constant="53" id="hrJ-fB-5Rd"/>
+                            <constraint firstItem="vAC-ct-03B" firstAttribute="top" secondItem="fee-ah-iKm" secondAttribute="bottom" constant="65" id="hrJ-fB-5Rd"/>
                             <constraint firstItem="RXZ-NI-Bmd" firstAttribute="top" secondItem="e0T-c9-hce" secondAttribute="bottom" constant="8" id="iGR-aY-dmJ"/>
                             <constraint firstItem="pCq-Ka-wIq" firstAttribute="leading" secondItem="O3F-gm-gah" secondAttribute="trailing" constant="47.5" id="kyL-ni-iDy"/>
                             <constraint firstItem="tgO-MX-TMD" firstAttribute="trailing" secondItem="m9T-VD-2z9" secondAttribute="trailing" constant="63" id="lhA-ka-w5Y"/>
@@ -463,7 +463,7 @@
                         <outlet property="ilikIlanGoruntule" destination="VZo-zN-IN0" id="PXc-xy-Dgy"/>
                         <outlet property="kanIlanGoruntule" destination="f4s-wM-4m0" id="pMD-SX-e3x"/>
                         <outlet property="malzemeIlanGoruntule" destination="Unc-bv-hC9" id="t6j-Mt-WzC"/>
-                        <segue destination="Jj3-Vc-CYn" kind="show" identifier="AnaEkrantoIlanlar" id="ggd-S6-okp"/>
+                        <segue destination="Jj3-Vc-CYn" kind="presentation" identifier="AnaEkrantoIlanlar" modalPresentationStyle="fullScreen" id="ggd-S6-okp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lax-9e-WpF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -475,76 +475,60 @@
             <objects>
                 <viewController id="Jj3-Vc-CYn" customClass="IlanlarViewController" customModule="BirSansVerIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X8b-29-pzf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İLANLAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QbH-V5-wfZ">
-                                <rect key="frame" x="20" y="30" width="374" height="42"/>
+                                <rect key="frame" x="20" y="64" width="374" height="42"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
                                 <color key="textColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KVN-n8-hcx">
-                                <rect key="frame" x="20" y="182" width="374" height="626"/>
+                                <rect key="frame" x="20" y="146" width="374" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="tintColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arama:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPu-fP-ELh">
-                                <rect key="frame" x="20" y="96" width="63" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İl veya hastane bilgisi kullanınız." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t0A-es-Uj2">
-                                <rect key="frame" x="20" y="128" width="303" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYJ-nu-bUD">
-                                <rect key="frame" x="339" y="128" width="55" height="34"/>
-                                <color key="backgroundColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ARA">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSh-uO-w5P">
+                                <rect key="frame" x="20" y="70" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="99L-tH-R7l"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="kapat"/>
+                                <connections>
+                                    <segue destination="tvK-ke-faZ" kind="presentation" identifier="IlanlartoAnaEkran" modalPresentationStyle="fullScreen" id="8Cd-Jg-mtc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y7w-ZB-Kos"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="KVN-n8-hcx" firstAttribute="top" secondItem="QbH-V5-wfZ" secondAttribute="bottom" constant="110" id="3bh-P2-Ugb"/>
+                            <constraint firstItem="KVN-n8-hcx" firstAttribute="top" secondItem="QbH-V5-wfZ" secondAttribute="bottom" constant="40" id="3bh-P2-Ugb"/>
                             <constraint firstItem="KVN-n8-hcx" firstAttribute="leading" secondItem="Y7w-ZB-Kos" secondAttribute="leading" constant="20" id="G8l-kn-rDO"/>
-                            <constraint firstItem="SPu-fP-ELh" firstAttribute="leading" secondItem="QbH-V5-wfZ" secondAttribute="leading" id="Jqj-ZO-IfN"/>
-                            <constraint firstItem="t0A-es-Uj2" firstAttribute="leading" secondItem="SPu-fP-ELh" secondAttribute="trailing" constant="-63" id="MiV-iE-vti"/>
-                            <constraint firstItem="iYJ-nu-bUD" firstAttribute="top" secondItem="t0A-es-Uj2" secondAttribute="top" id="OzC-V4-ppE"/>
-                            <constraint firstItem="KVN-n8-hcx" firstAttribute="top" secondItem="t0A-es-Uj2" secondAttribute="bottom" constant="20" id="WAN-xy-dtf"/>
-                            <constraint firstItem="iYJ-nu-bUD" firstAttribute="trailing" secondItem="QbH-V5-wfZ" secondAttribute="trailing" id="Zcd-jp-XCx"/>
+                            <constraint firstItem="Y7w-ZB-Kos" firstAttribute="trailing" secondItem="FSh-uO-w5P" secondAttribute="trailing" constant="364" id="OxN-g6-NAa"/>
+                            <constraint firstItem="FSh-uO-w5P" firstAttribute="centerY" secondItem="QbH-V5-wfZ" secondAttribute="centerY" id="PL1-9S-1E8"/>
                             <constraint firstItem="Y7w-ZB-Kos" firstAttribute="trailing" secondItem="KVN-n8-hcx" secondAttribute="trailing" constant="20" id="azz-4B-Lcm"/>
-                            <constraint firstItem="iYJ-nu-bUD" firstAttribute="bottom" secondItem="t0A-es-Uj2" secondAttribute="bottom" id="eaa-kd-JDg"/>
-                            <constraint firstItem="QbH-V5-wfZ" firstAttribute="top" secondItem="Y7w-ZB-Kos" secondAttribute="top" constant="30" id="ipd-zf-cEO"/>
-                            <constraint firstItem="t0A-es-Uj2" firstAttribute="trailing" secondItem="QbH-V5-wfZ" secondAttribute="trailing" constant="-71" id="kLj-JI-VSN"/>
-                            <constraint firstItem="iYJ-nu-bUD" firstAttribute="leading" secondItem="t0A-es-Uj2" secondAttribute="trailing" constant="16" id="ksz-l7-jwv"/>
+                            <constraint firstItem="QbH-V5-wfZ" firstAttribute="top" secondItem="Y7w-ZB-Kos" secondAttribute="top" constant="20" id="ipd-zf-cEO"/>
                             <constraint firstItem="KVN-n8-hcx" firstAttribute="bottom" secondItem="Y7w-ZB-Kos" secondAttribute="bottom" id="lus-Wt-LoE"/>
                             <constraint firstItem="QbH-V5-wfZ" firstAttribute="trailing" secondItem="X8b-29-pzf" secondAttribute="trailingMargin" id="s0R-wL-fyU"/>
                             <constraint firstItem="QbH-V5-wfZ" firstAttribute="leading" secondItem="X8b-29-pzf" secondAttribute="leadingMargin" id="u20-4Y-uwg"/>
-                            <constraint firstItem="SPu-fP-ELh" firstAttribute="centerY" secondItem="t0A-es-Uj2" secondAttribute="centerY" constant="-37" id="vPN-YF-UZg"/>
+                            <constraint firstItem="FSh-uO-w5P" firstAttribute="leading" secondItem="QbH-V5-wfZ" secondAttribute="leading" id="wvd-A6-UMr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1me-T0-Q5G"/>
                     <connections>
-                        <outlet property="btnAra" destination="iYJ-nu-bUD" id="gi3-Qe-Ge1"/>
-                        <outlet property="ilSecimi" destination="t0A-es-Uj2" id="DaZ-NZ-xsB"/>
                         <outlet property="tblIlanlar" destination="KVN-n8-hcx" id="lps-sV-45T"/>
                         <segue destination="tKj-Cz-gbZ" kind="show" identifier="IlanlartoIlanAyrintilari" id="K24-eq-jpd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="azj-ww-7Bi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2667" y="-227"/>
+            <point key="canvasLocation" x="2518.840579710145" y="-958.25892857142856"/>
         </scene>
         <!--Ilan Bilgileri View Controller-->
         <scene sceneID="bKJ-aY-z0x">
             <objects>
-                <viewController id="tKj-Cz-gbZ" customClass="IlanBilgileriViewController" customModule="BirSansVerIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IlanBilgileri" id="tKj-Cz-gbZ" customClass="IlanBilgileriViewController" customModule="BirSansVerIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zYV-BG-Uok">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -719,7 +703,7 @@
                         <outlet property="btnKonum" destination="6Ir-Lk-chK" id="aM5-Jb-AQe"/>
                         <outlet property="ilanAdSoyad" destination="jVL-sQ-KrM" id="fvD-eq-SLD"/>
                         <outlet property="ilanBilgisi" destination="gAA-D2-pkD" id="y1w-IF-gaQ"/>
-                        <outlet property="ilanHastane" destination="GGc-H5-3w6" id="pAh-QO-iFM"/>
+                        <outlet property="ilanHastane" destination="HhA-jW-5Ak" id="EiW-De-n2c"/>
                         <outlet property="ilanIl" destination="upQ-0H-o9j" id="XSh-ez-C3v"/>
                         <outlet property="ilanTelefon" destination="m46-Ge-mtm" id="shK-M0-uWp"/>
                         <outlet property="ilanTipi" destination="GGc-H5-3w6" id="FIp-pY-gSQ"/>
@@ -727,7 +711,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BGA-5B-tk3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3399" y="-227"/>
+            <point key="canvasLocation" x="2519" y="-227"/>
         </scene>
         <!--Ilan Paylas View Controller-->
         <scene sceneID="dCX-nG-g1G">
@@ -982,14 +966,18 @@
             <point key="canvasLocation" x="2666.666666666667" y="506.91964285714283"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8Cd-Jg-mtc"/>
+    </inferredMetricsTieBreakers>
     <resources>
-        <image name="belgeIcon" width="100" height="102"/>
-        <image name="cikisIcon" width="150" height="152"/>
+        <image name="cikis" width="120" height="122"/>
         <image name="ilacIcon" width="120" height="124"/>
+        <image name="ilanlarim" width="120" height="122"/>
+        <image name="ilanpaylas" width="120" height="122"/>
         <image name="ilikIcon" width="120" height="124"/>
         <image name="kanIcon" width="120" height="124"/>
+        <image name="kapat" width="182" height="198"/>
         <image name="malzemeIcon" width="120" height="124"/>
-        <image name="paylas" width="320" height="292"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

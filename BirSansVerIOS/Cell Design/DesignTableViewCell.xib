@@ -22,12 +22,6 @@
                         <color key="textColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00.00.0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UH-Bq-Tn4">
-                        <rect key="frame" x="244" y="10" width="66" height="15"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                        <color key="textColor" red="0.61162722110000001" green="0.1180996969" blue="0.1179013625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İlan Kategori Bilgisi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McS-F6-18c">
                         <rect key="frame" x="10" y="10" width="156" height="22"/>
                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
@@ -40,8 +34,6 @@
                     <constraint firstItem="McS-F6-18c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="9iV-m1-C5n"/>
                     <constraint firstAttribute="bottom" secondItem="iwO-Ml-LoM" secondAttribute="bottom" constant="10" id="Nev-YZ-o7o"/>
                     <constraint firstItem="iwO-Ml-LoM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="e6a-GI-6gg"/>
-                    <constraint firstAttribute="trailing" secondItem="1UH-Bq-Tn4" secondAttribute="trailing" constant="10" id="oE8-1w-Z8b"/>
-                    <constraint firstItem="1UH-Bq-Tn4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="q27-v8-Cad"/>
                     <constraint firstItem="McS-F6-18c" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="uep-Mc-C5w"/>
                 </constraints>
             </tableViewCellContentView>
@@ -49,7 +41,6 @@
             <connections>
                 <outlet property="ilanHastaneBilgsi" destination="iwO-Ml-LoM" id="ng6-wF-wFx"/>
                 <outlet property="ilanKategoriBilgisi" destination="McS-F6-18c" id="wwq-Ot-2HY"/>
-                <outlet property="ilanTarihBilgisi" destination="1UH-Bq-Tn4" id="bCb-z4-eup"/>
             </connections>
             <point key="canvasLocation" x="-207.24637681159422" y="93.080357142857139"/>
         </tableViewCell>

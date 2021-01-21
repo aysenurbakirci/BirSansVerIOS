@@ -14,8 +14,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var ilacIlanGoruntule: UIButton!
     @IBOutlet weak var ilikIlanGoruntule: UIButton!
     @IBOutlet weak var malzemeIlanGoruntule: UIButton!
-
-    var ilanTipi : String = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,32 +23,40 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func ClickKanIlanlari(_ sender: Any) {
+        classIlanTipi.ilanTipi.ilan = "Kan İlanı"
         self.performSegue(withIdentifier: "AnaEkrantoIlanlar", sender: nil)
-        ilanTipi = "Kan İlanı"
     }
     
     @IBAction func clickIlacIlanlari(_ sender: Any) {
+        classIlanTipi.ilanTipi.ilan = "İlaç İlanı"
         self.performSegue(withIdentifier: "AnaEkrantoIlanlar", sender: nil)
-        ilanTipi = "İlaç İlanı"
     }
     
     @IBAction func clickIlıkIlanlari(_ sender: Any) {
+        classIlanTipi.ilanTipi.ilan = "İlik İlanı"
         self.performSegue(withIdentifier: "AnaEkrantoIlanlar", sender: nil)
-        ilanTipi = "İlik İlanı"
     }
     
     @IBAction func clickMalzemeIlanlari(_ sender: Any) {
+        classIlanTipi.ilanTipi.ilan = "Malzeme İlanı"
         self.performSegue(withIdentifier: "AnaEkrantoIlanlar", sender: nil)
-        ilanTipi = "Malzeme İlanı"
     }
     
     @IBAction func clickBtnCikis(_ sender: Any) {
-        do {
-            try Auth.auth().signOut()
-            self.performSegue(withIdentifier: "AnaEkrantoUygGirisEkrani", sender: nil)
-        } catch {
-            
+
+        let cikisalert = UIAlertController(title: "ÇIKIŞ", message: "Çıkış yapmak istediğinize emin misiniz?", preferredStyle: UIAlertController.Style.alert)
+        let okButonu = UIAlertAction(title: "Vazgeç", style: UIAlertAction.Style.default, handler: nil)
+        let cikisButonu = UIAlertAction(title: "Çıkış", style: UIAlertAction.Style.cancel) { (UIAlertAction) in
+            do {
+                try Auth.auth().signOut()
+                self.performSegue(withIdentifier: "AnaEkrantoUygGirisEkrani", sender: nil)
+            } catch {
+                
+            }
         }
+        cikisalert.addAction(okButonu)
+        cikisalert.addAction(cikisButonu)
+        self.present(cikisalert, animated: true, completion: nil)
     }
     
     @IBAction func clickIlanPaylsa(_ sender: Any) {

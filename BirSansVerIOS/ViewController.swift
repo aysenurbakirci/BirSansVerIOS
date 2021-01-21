@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     @IBAction func clickNasilKullanilir(_ sender: Any) {
         
-        let alert = UIAlertController(title: "Nasıl Kullanılır?", message: "Uygulama hastanede bulunan kan, ilik, ilaç ve malzeme gibi ihtiyaçları bulunan hastaların bu ihtiyaçlarını kolayca insanlara duyurabilmesini sağlar. Bu uygulama sayesinde hastanede bulunan insanlar istedikleri kategoriyi belirterek bunu sağlayabilecek insanların kendileriyle iletişime geçmesini sağlar. Karışıklık olmaması için tüm ilanlar paylaşıldıktan 1 hafta sonra silinmektedir.", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Nasıl Kullanılır?", message: "Uygulama hastanede bulunan kan, ilik, ilaç ve malzeme gibi ihtiyaçları bulunan hastaların bu ihtiyaçlarını kolayca insanlara duyurabilmesini sağlar. Bu uygulama sayesinde hastanede bulunan insanlar istedikleri kategoriyi belirterek bunu sağlayabilecek insanların kendileriyle iletişime geçmesini sağlar.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Tamam", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
         

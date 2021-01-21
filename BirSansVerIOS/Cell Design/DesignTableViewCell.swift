@@ -11,7 +11,6 @@ class DesignTableViewCell: UITableViewCell {
 
     @IBOutlet weak var ilanKategoriBilgisi: UILabel!
     @IBOutlet weak var ilanHastaneBilgsi: UILabel!
-    @IBOutlet weak var ilanTarihBilgisi: UILabel!
     
     
     override func awakeFromNib() {
